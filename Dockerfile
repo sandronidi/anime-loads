@@ -1,5 +1,7 @@
 FROM python:3
 
+ENV TZ="Europe/Zurich"
+
 WORKDIR /usr/src/app
 
 RUN apt install git -y
